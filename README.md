@@ -1,10 +1,10 @@
-# django-todo
-A simple todo app built with django
+# Django-Todo-App
+A simple todo app built with django and then create its CI/CD pipeline using jenkinks
 
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
-$ git clone https://github.com/shreys7/django-todo.git
+$ git clone jawadahmed2/Django-ToDo-App-CICD.git
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
@@ -29,9 +29,9 @@ $ python manage.py createsuperuser
 That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
 
 ```bash
-$ python manage.py runserver
+$ python manage.py runserver 0.0.0.0:80
 ```
 
-Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
+Once the server is hosted, head over to http://0.0.0.0:80/todos for the App.
 
 Cheers and Happy Coding :)
